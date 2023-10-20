@@ -22,6 +22,6 @@ jobs:
         run: npm install
 
       - name: Deploy to Vercel
-        run: npx vercel --prod
+        run: npx vercel --prod -y
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
