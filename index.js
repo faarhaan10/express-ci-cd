@@ -11,8 +11,6 @@ const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 app.use(express.json());
 app.use(cors());
 
-VFMISd0MLRC4q9f1AxTsZRg4;
-
 const uri = `mongodb+srv://${DB}:${PASS}@cluster0.telyg.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
